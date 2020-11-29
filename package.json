@@ -1,0 +1,28 @@
+{
+  "name": "bloodbankapp-api",
+  "version": "1.0.0",
+  "description": "git clone ...url\r cd projectname\r Step 1: Create npm project\r npm init\r Step 2: Install Dependencies\r npm i express@next\r npm i cors\r npm i mysql2\r npm i dotenv \r npm i nodemon -D\r Step 3: Create app.js\r //Use dotenv to read .env vars into Node\r require('dotenv').config();\r const express = require('express');\r const cors = require('cors');\r const app = express();\r app.use(cors());\r app.use(express.json());\r const port = process.env.PORT || 5000;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sf-fresher-batch-2020/bloodbankapp-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-fresher-batch-2020/bloodbankapp-api/issues"
+  },
+  "homepage": "https://github.com/sf-fresher-batch-2020/bloodbankapp-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^5.0.0-alpha.8",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
